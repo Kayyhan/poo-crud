@@ -1,0 +1,46 @@
+.o-body{
+    background: #E3E3E3;
+}
+
+.o-header{
+    width: 125px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #344648;
+}
+
+.o-navigation{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 60%;
+    background: #7D8E95;
+
+    & > ul{
+        width: 100%;
+        height: 100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+
+        & > li{
+            .g-no-bullet;
+            margin: 0;
+        }
+    }
+}
+
+.o-main{
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    left: 125px;
+    top: 0;
+}

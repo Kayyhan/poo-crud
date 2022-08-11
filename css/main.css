@@ -1,0 +1,82 @@
+/* Importation des fichiers dans partials */
+.g-text-bold {
+  font-weight: bold;
+}
+.g-text-italic {
+  font-style: italic;
+}
+.g-text-normal {
+  font-weight: normal;
+}
+.g-text-uppercase {
+  text-transform: uppercase;
+}
+.g-text-capitalize {
+  text-transform: capitalize;
+}
+.g-text-no-underline {
+  text-decoration: none;
+}
+.g-text-underline {
+  text-decoration: underline;
+}
+.g-text-line-throught {
+  text-decoration: line-through;
+}
+.g-text-initial {
+  text-transform: initial;
+}
+.g-no-bullet {
+  list-style-type: none;
+}
+.o-body {
+  background: #E3E3E3;
+}
+.o-header {
+  width: 125px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #344648;
+}
+.o-navigation {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  height: 60%;
+  background: #7D8E95;
+}
+.o-navigation > ul {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+  margin: 0;
+}
+.o-navigation > ul > li {
+  list-style-type: none;
+  margin: 0;
+}
+.o-main {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  left: 125px;
+  top: 0;
+}
+/* Importation des fonts*/
