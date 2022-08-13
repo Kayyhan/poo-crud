@@ -1,4 +1,31 @@
 /* Importation des fichiers dans partials */
+.s-text-black {
+  color: #000000;
+}
+.s-text-cream-color {
+  color: #FBE0C3;
+}
+.s-text-white-color {
+  color: #FFFFFF;
+}
+.s-text-dark-cyan {
+  color: #344648;
+}
+.s-text-dark-white {
+  color: #E3E3E3;
+}
+.s-back-cream-color {
+  background: #FBE0C3;
+}
+.s-back-white-color {
+  background: #FFFFFF;
+}
+.s-back-dark-cyan {
+  background: #344648;
+}
+.s-back-dark-white {
+  background: #E3E3E3;
+}
 .g-text-bold {
   font-weight: bold;
 }
@@ -29,8 +56,47 @@
 .g-no-bullet {
   list-style-type: none;
 }
+html {
+  font-size: 62.5%;
+}
 .o-body {
   background: #E3E3E3;
+  overflow-x: hidden;
+  color: #000000;
+  font-size: 1.6rem;
+}
+.o-page p,
+.o-page ul li,
+.o-page span {
+  font-size: 1.6rem;
+}
+.o-page a {
+  font-size: 1.6rem;
+  color: #FBE0C3;
+}
+.o-page h1,
+.o-page .h1-like {
+  font-size: 3.6rem;
+}
+.o-page h2,
+.o-page .h2-like {
+  font-size: 3.2rem;
+}
+.o-page h3,
+.o-page .h3-l {
+  font-size: 2.6rem;
+}
+.o-page h4,
+.o-page .h4-like {
+  font-size: 2rem;
+}
+.o-page h5,
+.o-page .h5-like {
+  font-size: 1.6rem;
+}
+.o-page h6,
+.o-page .h6-like {
+  font-size: 1.4rem;
 }
 .o-header {
   width: 125px;
@@ -47,8 +113,7 @@
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   width: 100%;
-  height: 60%;
-  background: #7D8E95;
+  height: 40%;
 }
 .o-navigation > ul {
   width: 100%;
@@ -68,9 +133,13 @@
   padding: 0;
   margin: 0;
 }
-.o-navigation > ul > li {
+.o-navigation > ul > a {
   list-style-type: none;
   margin: 0;
+  text-decoration: none;
+}
+.o-navigation > ul > a > li {
+  font-size: 2rem;
 }
 .o-main {
   position: absolute;

@@ -24,7 +24,7 @@
             </div>
         </div>
         <div class="o-main">
-            <h1>Accueil</h1>
+            <h1>Livres</h1>
         </div>
     </div>
 </body>
