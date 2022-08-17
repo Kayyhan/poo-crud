@@ -148,4 +148,9 @@ html {
   left: 125px;
   top: 0;
 }
+.o-main > .o-main-title {
+  color: #344648;
+  font-weight: 900;
+  text-transform: uppercase;
+}
 /* Importation des fonts*/
